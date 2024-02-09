@@ -9,10 +9,11 @@
 	z-index: 5;
 }
 .section{
+    
 	padding-top:100px ;
 	position: relative;
 	height: 100vh;
-	width: 100vw;
+	width: 100%;
 	}
 .all-section{
 	right: 0px;
@@ -42,6 +43,8 @@ html{
         text-decoration:underline 2px solid;
 }
 .home-section{
+
+	 width: 100%;
      background-image: url(https://cdn.dribbble.com/users/434606/screenshots/3835250/game_dev-01_layout.jpg);
      background-repeat: no-repeat;
      background-size: 50%;
@@ -83,11 +86,12 @@ html{
 	color: orangered;
 }
 .about-section{
-
+    
 	width: 100%;
 	display: flex;
 }
 .image-section{	
+	
          height:100%;
          width: 50%;
 }
@@ -95,9 +99,10 @@ html{
 	border-radius: 100px;
 	height:600px;
 	width:700px;
+
 }
 .objective{
-	
+	 
      width: 50%;
      height: 100%;
 }
