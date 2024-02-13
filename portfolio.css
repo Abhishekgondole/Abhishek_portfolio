@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 .navigation-bar{	
 	position: fixed;
 	top: 0px;
@@ -27,12 +27,13 @@ h1{
 html{
 	scroll-behavior: smooth;
 }
+
 .logo{
 	color: royalblue;
 	letter-spacing: 3px;
 	font-size:30px;
 	font-family: arial black;
-
+       
 }
 .mymenus{
 	font-weight: bolder;
@@ -87,7 +88,7 @@ html{
 }
 .about-section{
     
-	width: 100%;
+	width: 90%;
 	display: flex;
 }
 .image-section{	
@@ -96,9 +97,10 @@ html{
          width: 50%;
 }
 .myphoto{
+	margin-left: 50px;
 	border-radius: 100px;
-	height:600px;
-	width:700px;
+	height: 500px;
+	width:550px;
 
 }
 .objective{
